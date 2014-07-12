@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '2.1.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
@@ -27,6 +27,9 @@ gem 'spring',        group: :development
 
 # Add bootstrap front end framework
 gem 'bootstrap-sass'
+
+# Devise for user managment
+gem 'devise', '~>3.2.4'
 
 group :development, :test	do
 	gem 'sqlite3'	# Use sqlite3 as the database for Active Record
